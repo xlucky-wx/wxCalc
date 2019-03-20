@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/common/common"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#da7c0c",
+    "navigationBarTitleText": "多功能计算器",
+    "navigationBarTextStyle":"white"
+  }
+}
