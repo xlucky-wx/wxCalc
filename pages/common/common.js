@@ -10,7 +10,7 @@ Page({
   showAbout: function (e) {
     wx.showModal({
       title: '关于',
-      content: '普通的常用的计算器',
+      content: '常用的计算器',
       showCancel: false
     })
   },

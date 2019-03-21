@@ -1,12 +1,13 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/common/common"
+    "pages/common/common",
+    "pages/program/program"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#da7c0c",
-    "navigationBarTitleText": "多功能计算器",
+    "navigationBarBackgroundColor": "#5c5c5c",
+    "navigationBarTitleText": "smart计算器",
     "navigationBarTextStyle":"white"
   }
 }

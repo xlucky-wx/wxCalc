@@ -3,7 +3,8 @@
 var app = getApp()
 Page({
   data: {
-    motto: '简易计算器',
+    common: '简易计算器',
+    program : '程序计算器',
     userInfo: {},
     defaultSize: 'default',
     disabled: false,
@@ -15,7 +16,7 @@ Page({
       url: '../logs/logs'
     })
   },
-  toCalc:function(){
+  toCommon:function(){
     wx.navigateTo({
       url:'../common/common'
     })
