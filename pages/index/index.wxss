@@ -29,8 +29,8 @@
   margin-top:80px;
 }
 
-.usermotto {
-  margin-top: 35%;
+.calcu-button {
+  margin-top: 5%;
 }
 
 /** 修改button默认的点击态样式类**/

@@ -3,9 +3,12 @@
   <view>
     <text class="userinfo-nickname">hello {{userInfo.nickName}} !</text>
   </view>
-  <view class="usermotto">
-    <button type="default" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
-        disabled="{{disabled}}" bindtap="toCommon"> {{common}} 
+  <view class=".calcu-button">
+    <button type="default" hover-class="button-hover" bindtap="toCommon"> {{common}} 
+    </button>
+  </view>
+  <view class=".calcu-button">
+    <button type="default" hover-class="button-hover"bindtap="toCommon"> {{program}} 
     </button>
   </view>
   
