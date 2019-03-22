@@ -3,13 +3,13 @@
   <view>
     <text class="userinfo-nickname">hello {{userInfo.nickName}} !</text>
   </view>
-  <view class=".calcu-button">
-    <button type="default" hover-class="button-hover" bindtap="toCommon"> {{common}} 
-    </button>
-  </view>
-  <view class=".calcu-button">
-    <button type="default" hover-class="button-hover"bindtap="toCommon"> {{program}} 
-    </button>
-  </view>
+
+  <button class='btn1' hover-class="button-hover" bindtap="toCommon"> 
+    <view>{{common}}</view>
+  </button>
+
+  <button class='btn1' hover-class="button-hover" bindtap="toCommon"> 
+    <view> {{program}} </view>
+  </button>
   
 </view>

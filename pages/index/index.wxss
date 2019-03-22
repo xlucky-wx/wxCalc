@@ -29,9 +29,6 @@
   margin-top:80px;
 }
 
-.calcu-button {
-  margin-top: 5%;
-}
 
 /** 修改button默认的点击态样式类**/
 .button-hover {
@@ -45,4 +42,15 @@
 .icon{
   vertical-align: middle;
   margin-right: 2px;
+}
+
+.btn1 {
+  width: 80%;
+  margin-top: 5%;
+  background-color: rgb(65, 65, 62);
+  color: white;
+  border-radius: 98rpx; 
+}
+.btn1::after {
+  border-radius: 98rpx;
 }
